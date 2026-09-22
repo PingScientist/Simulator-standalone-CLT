@@ -1,0 +1,65 @@
+{
+  "date": "2026-09-22T15:08:58.179Z",
+  "engines": [
+    {
+      "name": "chromium",
+      "version": "151.0.7922.34",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+      "offlineFlag": true,
+      "httpBlocked": true,
+      "errors": [],
+      "network": []
+    }
+  ],
+  "scenarios": [
+    {
+      "name": "chromium standalone initialization",
+      "detail": {
+        "selfChecks": 6,
+        "networkMode": "offline flag + HTTP(S) blocked"
+      }
+    },
+    {
+      "name": "chromium deterministic reset, pause and complete final render"
+    },
+    {
+      "name": "chromium snapshot isolates experimental conditions"
+    },
+    {
+      "name": "chromium JSON export / import / RNG continuation"
+    },
+    {
+      "name": "chromium CSV and PNG exports"
+    },
+    {
+      "name": "chromium all five modes and complete correlation"
+    },
+    {
+      "name": "chromium physical low/high temperature limits"
+    },
+    {
+      "name": "chromium all mother distributions and custom pointer drawing"
+    },
+    {
+      "name": "chromium invalid controls and import are rejected"
+    },
+    {
+      "name": "chromium n sweep validates square-root scaling"
+    },
+    {
+      "name": "chromium universality gallery"
+    },
+    {
+      "name": "chromium POE notebook and AI prompt"
+    },
+    {
+      "name": "chromium guide and presentation modes"
+    },
+    {
+      "name": "chromium responsive widths 375 / 768 / 1024"
+    },
+    {
+      "name": "chromium no JavaScript errors or network requests"
+    }
+  ]
+}

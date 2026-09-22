@@ -1,0 +1,65 @@
+{
+  "date": "2026-09-22T15:09:02.985Z",
+  "engines": [
+    {
+      "name": "webkit",
+      "version": "26.4",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.4 Safari/605.1.15",
+      "offlineFlag": false,
+      "httpBlocked": true,
+      "errors": [],
+      "network": []
+    }
+  ],
+  "scenarios": [
+    {
+      "name": "webkit standalone initialization",
+      "detail": {
+        "selfChecks": 6,
+        "networkMode": "HTTP(S) blocked; WebKit file:// offline-flag limitation"
+      }
+    },
+    {
+      "name": "webkit deterministic reset, pause and complete final render"
+    },
+    {
+      "name": "webkit snapshot isolates experimental conditions"
+    },
+    {
+      "name": "webkit JSON export / import / RNG continuation"
+    },
+    {
+      "name": "webkit CSV and PNG exports"
+    },
+    {
+      "name": "webkit all five modes and complete correlation"
+    },
+    {
+      "name": "webkit physical low/high temperature limits"
+    },
+    {
+      "name": "webkit all mother distributions and custom pointer drawing"
+    },
+    {
+      "name": "webkit invalid controls and import are rejected"
+    },
+    {
+      "name": "webkit n sweep validates square-root scaling"
+    },
+    {
+      "name": "webkit universality gallery"
+    },
+    {
+      "name": "webkit POE notebook and AI prompt"
+    },
+    {
+      "name": "webkit guide and presentation modes"
+    },
+    {
+      "name": "webkit responsive widths 375 / 768 / 1024"
+    },
+    {
+      "name": "webkit no JavaScript errors or network requests"
+    }
+  ]
+}

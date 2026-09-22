@@ -1,0 +1,30 @@
+{
+  "date": "2026-09-22T15:09:16.058Z",
+  "results": [
+    {
+      "name": "Maximum n / K and theory invalidation"
+    },
+    {
+      "name": "Invalid zero-field / zero-temperature rolls back coherently"
+    },
+    {
+      "name": "100,000 Cauchy trials retain all tails",
+      "detail": {
+        "count": 100000,
+        "tail": 7873,
+        "inFrame": 92127,
+        "sumLength": 100000,
+        "median": "-0.003"
+      }
+    },
+    {
+      "name": "A-group overlay can be removed"
+    },
+    {
+      "name": "Final spin showcase, mobile and reduced-motion media"
+    },
+    {
+      "name": "No-Worker fallback remains functional"
+    }
+  ]
+}
