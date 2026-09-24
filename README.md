@@ -2,19 +2,31 @@
 
 物理系大三「熱統計物理一」互動模擬。從任意母分布出發，追蹤獨立抽樣如何形成宏觀分布，並連結順磁體、隨機漫步、相關性與重尾反例。
 
+**[▶ 線上體驗](https://pingscientist.github.io/Simulator-standalone-CLT/)** · **[下載單檔 HTML](https://github.com/PingScientist/Simulator-standalone-CLT/raw/refs/heads/main/index.html)**
+
 ## 交作業只需要一個檔案
 
-**下載 [`index.html`](index.html)，直接用瀏覽器開啟。提交作業時只交這個 HTML 即可。**
+**下載 [`index.html`](https://github.com/PingScientist/Simulator-standalone-CLT/raw/refs/heads/main/index.html)，直接用瀏覽器開啟。提交作業時只交這個 HTML 即可。**
 
 - 不需要安裝、建置、伺服器或帳號。
 - 可直接以 `file://` 開啟；第一次開啟也可完全斷網。
 - JavaScript、CSS、Chart.js、KaTeX、數學字型與圖示均包含在 HTML 內。
 - 不會上傳實驗資料；AI 功能是產生可複製的探究提示詞。
-- 請下載 GitHub 的原始檔案，而不是將 GitHub 原始碼預覽頁另存為 HTML。
+- 上方下載連結指向原始 HTML；若瀏覽器顯示原始文字，請另存為 `index.html`。不要將 GitHub 原始碼預覽頁另存為 HTML。
 
 其他資料夾是說明與開發驗證資料，執行時不會被 `index.html` 引用。
 
 ![順磁體實驗：10,000 次抽樣與理論比較](docs/preview.png)
+
+## GitHub Pages 發布
+
+線上網址：**https://pingscientist.github.io/Simulator-standalone-CLT/**
+
+在 GitHub 的 **Settings → Pages** 使用 **Deploy from a branch**，來源為 **main / (root)**，並啟用 HTTPS。根目錄的空白 `.nojekyll` 檔案讓 Pages 直接發布靜態檔案；首頁使用同一份 `index.html`。
+
+更新並推送到 `main` 後，GitHub Pages 會自動重新發布。可在 repo 的 **Actions** 查看 `pages build and deployment` 執行結果，完成後再開啟線上網址確認更新。發布方式見 [GitHub 官方說明](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)。
+
+`.nojekyll` 只用於網站發布；離線執行與交作業仍只需要 `index.html`。
 
 ## 快速體驗
 
@@ -78,6 +90,7 @@ CLT、系綜取樣與離散隨機漫步的合適算法是抽樣與卷積，不�
 
 ```text
 index.html                  唯一提交／執行檔；也包含可讀的應用程式原始碼
+.nojekyll                   空白的 GitHub Pages 靜態發布標記
 README.md                   使用與交付說明
 docs/physics-models.md       模型、公式與假設
 docs/numerical-methods.md    抽樣、卷積、誤差與效能
